@@ -11,7 +11,7 @@ def first_star(rucksacks):
             count +=1
     print(count)
 
-def first_second(rucksacks):
+def second_star(rucksacks):
     count = 0
     for pair in pairs:
         assignments = list(map(int, pair.replace("-", ",").split(",")))
@@ -23,5 +23,5 @@ def first_second(rucksacks):
 if __name__ == "__main__":
     pairs = readFile()
     first_star(pairs)
-    first_second(pairs)
+    second_star(pairs)
 

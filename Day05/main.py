@@ -1,6 +1,3 @@
-import re
-
-
 def readFile():
     return open("input.txt", mode='r').read().split("\n\n")
 
